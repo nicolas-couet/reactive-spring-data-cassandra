@@ -9,7 +9,7 @@ Spring components used:
 
 2 JUnit test classes provided:
 - UserServiceTest
-- UserControllerTest
+- UserControllerTest based on Spring WebTestClient
 
 JUnit classes rely on an embedded Cassandra, check project page for more information :
 https://github.com/nosan/embedded-cassandra
