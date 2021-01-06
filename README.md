@@ -10,6 +10,8 @@ Spring components used:
 - UserServiceTest
 - UserControllerTest based on Spring WebTestClient
 
-JUnit classes rely on an embedded Cassandra, check project page for more information :
+Basically, it creates an entity User and persists it into a Cassandra repository. 
+
+JUnit classes rely on an embedded Cassandra, check project page for more information:
 https://github.com/nosan/embedded-cassandra
 
