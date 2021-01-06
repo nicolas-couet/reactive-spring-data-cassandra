@@ -5,7 +5,6 @@ Spring components used:
 - spring-boot
 - spring-data-cassandra
 - spring-webflux
-- spring-web
 
 2 JUnit test classes provided:
 - UserServiceTest
