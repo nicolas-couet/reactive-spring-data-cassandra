@@ -17,7 +17,6 @@ import java.util.List;
 @Configuration
 @Import({ApplicationConfiguration.class})
 @EnableCassandraRepositories(basePackages = {"com.acme"})
-@EnableAspectJAutoProxy(proxyTargetClass = true)
 @ContextConfiguration
 @PropertySource(value = {"classpath:application.properties", "classpath:applicationTest.properties"},
         ignoreResourceNotFound = true)

@@ -2,7 +2,7 @@ package com.acme.core.user.service;
 
 import com.acme.core.entity.EntityState;
 import com.acme.core.entity.exception.PrimaryKeyConflictException;
-import com.acme.core.manager.EntityService;
+import com.acme.core.service.EntityService;
 import com.acme.core.user.entity.User;
 import com.acme.core.user.repository.UserRepository;
 import com.acme.core.utils.Assert;
