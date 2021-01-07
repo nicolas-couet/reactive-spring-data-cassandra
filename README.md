@@ -15,3 +15,4 @@ Basically, it creates an entity User and persists it into a Cassandra repository
 JUnit classes rely on an embedded Cassandra, check project page for more information:
 https://github.com/nosan/embedded-cassandra
 
+It provides a useful way to have a cassandra instance running for tests without installing anything and comes with a spring integration that makes it very easy to use. 
