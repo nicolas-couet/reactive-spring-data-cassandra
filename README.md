@@ -6,7 +6,7 @@ Spring components used:
 - spring-data-cassandra
 - spring-webflux
 
-2 JUnit test classes provided:
+2 JUnit test classes provided to validate code:
 - UserServiceTest
 - UserControllerTest based on Spring WebTestClient
 
